@@ -17,15 +17,11 @@ The final product, after days of troubleshooting, is a working home security cam
 
 **Technical Stack:**
 
-- Hardware:
-- Raspberry Pi 5 8GB RAM
-- SVPRO Outdoor USB Camera (Waterproof)
+- Hardware: Raspberry Pi 5 8GB RAM; SVPRO Outdoor USB Camera (Waterproof)
 
-- Networking:
-- Tailscale (WireGuard based) for encrypted end-to-end access to RTSP stream.
+- Networking: Tailscale (WireGuard based) for encrypted end-to-end access to RTSP stream.
 
-- Streaming utilization:
-- Tailscale for secure end-to-end encryption for viewing Real Time Streaming Protocol (RTSP) on Video LAN Client (VLC) and secure ssh.
+- Streaming utilization: Tailscale for secure end-to-end encryption for viewing Real Time Streaming Protocol (RTSP) on Video LAN Client (VLC) and secure ssh.
 
 **Key Takeaways:**
 - Data sovereignty is possible with the right hardware, ingenuity, and persistence
