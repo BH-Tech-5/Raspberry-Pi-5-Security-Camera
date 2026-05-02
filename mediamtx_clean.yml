@@ -1,0 +1,21 @@
+# MediaMTX Configuration - Clean Version
+logLevel: info
+rtspAddress: :8554
+
+# Internal Authentication for Local Publishing
+authMethod: internal
+authInternalUsers:
+  - user: YOURUSERNAME
+    pass: YOURPASSWORD
+    permissions:
+      - action: publish
+        path: cam
+      - action: read
+        path: cam
+
+# Path Configuration for USB Camera
+paths:
+  cam:
+    # Launches ffmpeg on initialization to pull from local USB V4L2 device
+    runOnInit: ffmpeg -f v4l2 -i /dev/video0 -f rtsp rtsp://YOURUSERNAME:YOURPASSWORD@localhost:$RTSP_PORT/cam
+    runOnInitRestart: yes
