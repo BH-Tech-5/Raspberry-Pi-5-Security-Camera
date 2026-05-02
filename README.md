@@ -2,6 +2,16 @@
 **Overview:**
 Edge surveillance system enabled by Raspberry Pi 5 and USB weatherproof camera.
 
+**Instructions for Use:**
+Utilizing the same hardware stack or a similar one with a USB camera capable of .yml config,
+1. Assemble the RPi5, flash OS, and plug in the camera
+2. Install ffmpeg and mediamtx
+3. Copy the mediamtx.yml file from this repository to your Pi in the proper path
+4. Replace the username and password
+5. Install Tailscale on the Pi and your viewing device
+6. Initialize mediamtx service
+7. Open VLC media player on the viewing device and utilize URL in the mediamtx file
+
 **Narrative:**
 This is the first project I completed! I wanted to get away from using cheap, foreign assembled devices that were likely compromising my network.
 
