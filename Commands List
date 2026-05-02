@@ -1,0 +1,19 @@
+Assemble the RPi5, flash OS, and plug in the camera
+
+Install ffmpeg and mediamtx
+sudo apt update && sudo apt install ffmpeg mediamtx -y
+
+Copy the mediamtx.yml file from this repository to your Pi in the proper path
+
+Replace the username and password
+
+Install and enable Tailscale on the Pi and your viewing device
+For the Pi: 
+curl -fsSL https://tailscale.com/install.sh | sh
+sudo tailscale up
+
+Initialize mediamtx service
+./mediamtx
+
+Open VLC media player on the viewing device and utilize URL in the mediamtx file
+
