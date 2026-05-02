@@ -16,14 +16,15 @@ Moving away from using MATLAB for data analysis in college classes and a senior 
 The final product, after days of troubleshooting, is a working home security camera that only I can see.
 
 **Technical Stack:**
-Hardware:
+
+- Hardware:
 - Raspberry Pi 5 8GB RAM
 - SVPRO Outdoor USB Camera (Waterproof)
-//
-Networking:
+
+- Networking:
 - Tailscale (WireGuard based) for encrypted end-to-end access to RTSP stream.
-//
-Streaming utilization:
+
+- Streaming utilization:
 - Tailscale for secure end-to-end encryption for viewing Real Time Streaming Protocol (RTSP) on Video LAN Client (VLC) and secure ssh.
 
 **Key Takeaways:**
