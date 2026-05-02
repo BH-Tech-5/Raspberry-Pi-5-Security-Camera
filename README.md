@@ -8,7 +8,7 @@ Utilizing the same hardware stack or a similar one with a USB camera capable of 
 2. Install ffmpeg and mediamtx
 3. Copy the mediamtx.yml file from this repository to your Pi in the proper path
 4. Replace the username and password
-5. Install Tailscale on the Pi and your viewing device
+5. Install and enable Tailscale on the Pi and your viewing device
 6. Initialize mediamtx service
 7. Open VLC media player on the viewing device and utilize URL in the mediamtx file
 
