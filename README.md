@@ -21,7 +21,7 @@ At the time I also had a Spectrum router, which didn't help much as I could not 
 
 Ultimately, I decided to ditch the SEHMUAs entirely and see if I could make my own. I planned to do this with a ribbon camera, common with RPi's, but realized quickly that this would not be practical due to weather. I then purchased a USB camera and proceeded to configure it for Real Time Streaming Protocol (RTSP).
 
-Moving away from using MATLAB for data analysis in college classes and a senior capstone Machine Learning project, it was enjoyable to branch out into practical coding application.
+Moving away from using MATLAB for data analysis in college classes and a senior capstone Machine Learning project, it was enjoyable to branch out into practical coding application with assistance from Artificial Intelligence models.
 
 The final product, after days of troubleshooting, is a working home security camera that only I can see.
 
